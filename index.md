@@ -7,7 +7,11 @@ My girlfriend is the owner of an IG business called [BreakfastFiesta](https://ww
 I help her out______.
 
 
-## Data processing
+## Data preprocessing and processing
+
+When a customer makes an order, we get a bunch of data from them. But not all of it is necessary.
+
+To get the data we care about for making deliveries, we can run the following code in Python.
 
 ```python
 {
@@ -24,7 +28,10 @@ df = df.dropna()
 }
 ```
 
-We collected a bunch of data from customers, but with the above code we could boil it down to what we care about: who we're delivering to, what they purchased, and where to go. And we get something along the lines of
+That gives us who we're delivering to, what they purchased, and where to go. 
+
+We get something along the lines of
+
 
 | Instagram Handle  | Address  | Order |
 | :------------ |:---------------:| -----:|
