@@ -15,3 +15,13 @@
      * With some
      * Sub bullets
 </details>
+
+
+```python
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
