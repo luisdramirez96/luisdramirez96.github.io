@@ -13,9 +13,9 @@ We collected a bunch of data from customers, but the ones we cared about was: wh
 
 | Instagram Handle  | Address  | Order |
 | :------------ |:---------------:| -----:|
-| exampleperson1      | 123 Apple St, Miami, FL 33015 | Combo #5 |
-| alsoaperson2     | 8352 Pine Cone Ln, Hialeah FL 33018 | Combo #2 |
-| imahuman33 | 1112 Peanut Blvd, Weston, FL 33326 | Combo #7 |
+| exampleperson      | 123 Apple St, Miami, FL 33015 | Combo #5 |
+| alsoaperson     | 8352 Pine Cone Ln, Hialeah FL 33018 | Combo #2 |
+| imahuman | 1112 Peanut Blvd, Weston, FL 33326 | Combo #7 |
 
 
 
