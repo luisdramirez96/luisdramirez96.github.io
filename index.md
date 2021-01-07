@@ -1,8 +1,6 @@
 # Improving the Efficiencies of a Local Business
 
-![My helpful screenshot](/breakfastfiesta/deliverymap.png =300x15)
-
-<img src="/breakfastfiesta/deliverymap.png" alt="delivery" width="200"/>
+<img src="/breakfastfiesta/deliverymap.png" alt="delivery" width="500"/>
 
 
 # A collapsible section with markdown
