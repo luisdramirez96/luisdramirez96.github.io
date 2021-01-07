@@ -9,7 +9,22 @@ I help her out______.
 
 ## Data processing
 
-We collected a bunch of data from customers, but the ones we cared about was: who we're delivering to, what they purchased, and where to go.
+```python
+{
+import pandas as pd
+
+# read file
+df = pd.read_csv('BreakfastFiestaOrderLog.csv', usecols = ['Cliente', 'Orden', 'Delivery Address'], index_col='Cliente')
+
+# remove all orders that will be picked up
+df = df[~df['Delivery Address'].isin(['Pickup'])]
+
+# drop blank cells
+df = df.dropna()
+}
+```
+
+We collected a bunch of data from customers, but with the above code we could boil it down to what we care about: who we're delivering to, what they purchased, and where to go. And we get something along the lines of
 
 | Instagram Handle  | Address  | Order |
 | :------------ |:---------------:| -----:|
@@ -31,13 +46,5 @@ We collected a bunch of data from customers, but the ones we cared about was: wh
      * Sub bullets
 </details>
 
-
-```python
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
 
 <button name="button">Click me</button>
