@@ -1,6 +1,6 @@
 # Improving the Efficiencies of a Local Business
 
-![My helpful screenshot](/breakfastfiesta/deliverymap.png) "Mother's Day 2020 Routes")
+![My helpful screenshot](/breakfastfiesta/deliverymap.png))
 
 
 # A collapsible section with markdown
